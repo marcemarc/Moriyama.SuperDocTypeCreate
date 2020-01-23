@@ -1,0 +1,1 @@
+# Moriyama.SuperDocTypeCreate
