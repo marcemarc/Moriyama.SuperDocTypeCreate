@@ -35,7 +35,7 @@
                         <span class="menu-label">
                             Element Type
                             <small>
-                                Used only to define the schema for a repeating set of properties for use in a 'Nested Content' property type.
+                                Defines the schema for a repeating set of properties used in a 'Block List' or 'Nested Content' property type.
                             </small>
                         </span>
                     </button>
@@ -46,14 +46,11 @@
                         <span class="menu-label">
                             Composition
                             <small>
-                                Defines a group of properties that can be used across multiple other Document Types. eg Common Page Settings
+                                Defines a re-usable set of properties that can be combined in the definition of multiple other Document Types. eg a set of 'Common Page Settings'.
                             </small>
                         </span>
                     </button>
                 </li>
-
-
-
 
                 <li data-element="action-folder" ng-if="model.allowCreateFolder" class="umb-action">
                     <button href="" ng-click="showCreateFolder()" class="umb-action-link umb-outline btn-reset">
